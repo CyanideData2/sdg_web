@@ -1,4 +1,4 @@
-# Aalto
+# Aalto ===
 1. Sustainability on campus
 2. Digital platform or toolkits for students
 ## Pros
@@ -25,7 +25,7 @@
 ## Pros
 ## Cons
 
-# Sweco
+# Sweco ===
 1. Climate-oriented urban planning 
 2. Digital data analysis tool
 3. Infrastructure for extreme weather
@@ -35,7 +35,8 @@
 – Maybe some tips from industry experts
 – Little competition
 ## Cons
-
+### Brainstorming
+– Heatmaps for
 
 # Luke
 1. Business model

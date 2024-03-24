@@ -36,29 +36,23 @@ const faqdata = [
   {
     question: "The design looks rather bland, why not design catchy visuals and a gamified experience to maximize engagement?",
     answer: `
-      We are trying to be universal
-      We secure regular engagement by displaying to users the results of their time spent in the app.
+      Overly flashy visuals, as well as artificial reward systems, may limit the accessibility of some users, and given the intersectional scope of the platform, we firmly believe that less is more.
+      We secure regular engagement by providing the users strong evidence that their time spent in the platform has a real impact.
       We want users to use the platform because they genuinely trust its effectiveness.
     `,
   },
   {
     question: "How do you avoid malicious users from polluting the data in areas of the city they do not inhabit?",
     answer: `
-    Local solution, only need things you usually use
-    Limit to district
-    By managing users through Strong Authentification, users can be reliably classified`,
+    Given the local nature of the issues expected to be reported, we find appropiate to restrict users to the municipality in which they live.
+    By managing log-in's through Strong Authentification, users can be reliably classified`,
   },
   {
-    question: "Some of the most critical stakeholders in the project, such as older people or, may have a harder time using a digital platform",
+    question: "Some of the most critical stakeholders in the project, such as older people or disabled individuals, may have a harder time using a digital platform",
     answer:
       `
         We distinguish between active and passive stakeholders, only one person is needed to report an issues that bothers a whole district.
         Furthermore, community centers and other public entities could take advantage of the platform to reliably relay the concerns brought to their customer service when they fall outside of their responsability.
       `,
-  },
-  {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
   },
 ];

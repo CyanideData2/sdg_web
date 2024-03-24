@@ -15,9 +15,8 @@ export default function Faq() {
                   <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
                     <span>{item.question}</span>
                     <ChevronUpIcon
-                      className={`${
-                        open ? "transform rotate-180" : ""
-                      } w-5 h-5 text-indigo-500`}
+                      className={`${open ? "transform rotate-180" : ""
+                        } w-5 h-5 text-indigo-500`}
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
@@ -35,17 +34,27 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "The design looks rather bland, why not design catchy visuals and a gamified experience to maximize engagement?",
+    answer: `
+      We are trying to be universal
+      We secure regular engagement by displaying to users the results of their time spent in the app.
+      We want users to use the platform because they genuinely trust its effectiveness.
+    `,
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How do you avoid malicious users from polluting the data in areas of the city they do not inhabit?",
+    answer: `
+    Local solution, only need things you usually use
+    Limit to district
+    By managing users through Strong Authentification, users can be reliably classified`,
   },
   {
-    question: "What is your refund policy? ",
+    question: "Some of the most critical stakeholders in the project, such as older people or, may have a harder time using a digital platform",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      `
+        We distinguish between active and passive stakeholders, only one person is needed to report an issues that bothers a whole district.
+        Furthermore, community centers and other public entities could take advantage of the platform to reliably relay the concerns brought to their customer service when they fall outside of their responsability.
+      `,
   },
   {
     question: "Do you offer technical support? ",

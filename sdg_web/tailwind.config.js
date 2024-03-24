@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         trueGray: colors.trueGray,
+        "primary-color": "var(--primary-color)",
       },
     },
     fontFamily: {

@@ -1,58 +1,51 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/Espoo_resized.jpg";
+import logoImg from "../public/img/logo.png";
 import aalto from "../public/img/Aalto_University_logo.svg.png";
-import sweco from "../public/img/sweco_black-1.png";
 
 export default function Hero() {
   return (
     <>
-        <div className="flex items-center w-full relative">
-          <Image
-            src={heroImg}
-            alt="Hero Illustration"
-            layout="intrinsic"
-            loading="eager"
-            placeholder="blur"
-          />
+      <div className="flex items-center w-full relative max-h-screen overflow-hidden ">
+        <Image
+          src={heroImg}
+          alt="Hero Illustration"
+          layout="intrinsic"
+          loading="eager"
+          placeholder="blur"
+        />
 
-          <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
 
-          <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-            <div className="w-full p-16">
-              <h1 className="text-4xl w-2/3 font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-                Empowering Espoo: Your Voice, Your City, Your Future
-              </h1>
-              <p className="py-5 text-xl w-2/3 leading-normal text-white lg:text-xl xl:text-2xl dark:text-gray-300">
-                Bridge the gap between government and residents in Espoo: report
-                issues, vote for change, and watch our city thrive.
-              </p>
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+          <div className="w-full p-16">
+            <Image src={logoImg} alt="logo" />
+            <p className="py-5 text-xl w-2/3 leading-normal text-white lg:text-xl xl:text-2xl dark:text-gray-300">
+              Bridge the gap between government and residents in Espoo: report
+              issues, vote for change, and watch our city thrive.
+            </p>
 
-              <div className="flex flex-col items-start space-x-3 space-y-3 sm:space-y-0 sm:items-center sm:flex-row">
-                <a
-                  href="https://github.com/web3templates"
-                  target="_blank"
-                  rel="noopener"
-                  className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
-                >
-                  See our demo
-                </a>
-              </div>
+            <div className="flex flex-col items-start space-x-3 space-y-3 sm:space-y-0 sm:items-center sm:flex-row">
+              <a
+                href="#video"
+                className="px-8 py-4 text-lg font-medium text-center text-white border border-primary-color bg-white text-primary-color rounded-md"
+              >
+                Watch our promotional video
+              </a>
             </div>
           </div>
         </div>
+      </div>
       <Container>
         <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by
-          </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <img src={aalto} alt="" />
             </div>
             <div className="text-gray-400 dark:text-gray-400">
-            <img src={aalto} alt="" />
+              <img src={aalto} alt="" />
             </div>
           </div>
         </div>

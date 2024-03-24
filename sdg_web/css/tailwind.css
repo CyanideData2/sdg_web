@@ -8,3 +8,7 @@
     @apply dark:bg-trueGray-900;
   }
 }
+
+:root {
+  --primary-color: #008469;
+}

@@ -1,57 +1,62 @@
 import {
   EmojiHappyIcon,
-  ChartSquareBarIcon,
+  ChipIcon,
   CursorClickIcon,
-  DeviceMobileIcon,
-  AdjustmentsIcon,
-  SunIcon,
+  ChartPieIcon,
+  GlobeIcon,
+  UserGroupIcon,
+  SearchIcon,
+  NewspaperIcon,
 } from "@heroicons/react/outline";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import appFrontScreenshot from "../public/img/presentation.png";
+import problemImage from "../public/img/problemImage.jpg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
+  title: "The solution",
+  image: appFrontScreenshot,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Engagement",
+      desc: "Our platform enables Espoo citizens to report issues they encounter in their daily lives.",
       icon: <EmojiHappyIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartSquareBarIcon />,
+      title: "Transparency",
+      desc: "Citizens make informed suggestions on how to distribute the district's real budget",
+      icon: <SearchIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorClickIcon />,
+      title: "Impact",
+      desc: "Citizens can make an impact by voting on real projects to be carried out by local authorities",
+      icon: <ChipIcon />,
+    },
+    {
+      title: "Feedback",
+      desc: "Citizens are given evidence that their votes influenced the actions taken by local authorities",
+      icon: <NewspaperIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
+  title: "The Problem",
+  image: problemImage,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DeviceMobileIcon />,
+      title: "Climate crisis",
+      desc: "Extreme weather caused by climate change puts a strain on public infrastructure",
+      icon: <GlobeIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsIcon />,
+      title: "Lack of data",
+      desc: "Though the biggest buildings and bridges are closely monitored, minor infrastructure issues are hard to predict, yet they can limit accessibility for residents.",
+      icon: <ChartPieIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Citizen disilusion",
+      desc: "Neighbours can submit requests and complains, but research shows that, without a proper feedback loop, these can feel impactless.",
+      icon: <UserGroupIcon />,
     },
   ],
 };

@@ -23,11 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
-        <meta
-          name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
-        />
+        <title>Treem - Resilient cities</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
